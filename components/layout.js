@@ -6,6 +6,7 @@ import Hero from '../components/hero';
 import Image from 'next/image';
 import Navigation from '../components/navigation';
 import Button from '../components/button';
+import NavList from './nav-list';
 
 const name = 'Compassionate Care';
 export const siteTitle = 'Compassionate Care | Massage | Bellingham';
@@ -75,21 +76,7 @@ export default function Layout({ children, home, open, setOpen }) {
           </a>
         </span>
         <nav className='nav-list'>
-          <Link href='/'>
-            <a className='nav-link'>HOME</a>
-          </Link>
-          <Link href='/about'>
-            <a className='nav-link'>ABOUT</a>
-          </Link>
-          <Link href='/services'>
-            <a className='nav-link'>SERVICES</a>
-          </Link>
-          <Link href='/rates'>
-            <a className='nav-link'>RATES</a>
-          </Link>
-          <Link href='/contact'>
-            <a className='nav-link'>CONTACT</a>
-          </Link>
+          <NavList />
         </nav>
       </footer>
       <style jsx>{`
@@ -104,22 +91,17 @@ export default function Layout({ children, home, open, setOpen }) {
         .nav-spacer {
           height: 5em;
         }
-        .nav-link {
-          /* font-size: 0.5rem; */
-          padding: 1em;
-          margin: auto;
-          text-decoration: underline;
-          white-space: nowrap;
-        }
         .nav-list {
-          display: grid;
+          display: flex;
+          flex-wrap: wrap;
+          /* display: grid;
           grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-          grid-template-rows: 4em;
-          justify-items: center;
-          padding: 0% 2%;
-          background: var(--color-darker);
-          position: sticky;
-          top: 0;
+          grid-template-rows: repeat(auto-fit, 4em);
+          justify-items: center; */
+          /* padding: 0% 2%; */
+          /* background: var(--color-darker); */
+          /* position: sticky; */
+          /* top: 0; */
         }
       `}</style>
     </div>

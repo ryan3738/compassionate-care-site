@@ -1,33 +1,50 @@
 import Link from 'next/link';
 
-export default function NavList() {
+export default function NavList(props) {
   return (
     <>
       {/* <nav className='nav-list'> */}
-      <Link href='/#about'>
-        <a className='nav-link'>ABOUT</a>
+      {console.log(props)}
+      <Link href='/'>
+        <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
+          Home
+        </a>
       </Link>
-      <Link href='/#menu'>
-        <a className='nav-link'>MENU</a>
+      <Link href='/about'>
+        <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
+          ABOUT
+        </a>
       </Link>
-      <Link href='/#contact'>
-        <a className='nav-link'>CONTACT</a>
+      <Link href='/services'>
+        <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
+          SERVICES
+        </a>
+      </Link>
+      <Link href='/rates'>
+        <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
+          Rates
+        </a>
+      </Link>
+      <Link href='/contact'>
+        <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
+          Contact
+        </a>
       </Link>
       {/* </nav> */}
       <style jsx>{`
         .nav-link {
+          text-transform: uppercase;
           padding: 1em;
           margin: auto;
+        }
+      `}</style>
+      <style jsx>{`
+        .show-on-large {
           display: none;
         }
 
         @media (min-width: 460px) {
-          .burger {
-            display: none;
-          }
-          .nav-link {
-            padding: 1em;
-            margin: auto;
+          .show-on-large {
             display: block;
           }
         }

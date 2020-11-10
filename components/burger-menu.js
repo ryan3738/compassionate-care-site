@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { bool } from 'prop-types';
+import NavList from './nav-list'
 
 BurgerMenu.propTypes = {
   open: bool.isRequired,
@@ -9,7 +10,8 @@ export default function BurgerMenu({ open }) {
   return (
     <>
       <nav className='styled-menu'>
-        <Link href='/about'>
+        <NavList />
+        {/* <Link href='/about'>
           <a>ABOUT</a>
         </Link>
         <Link href='/services'>
@@ -20,7 +22,7 @@ export default function BurgerMenu({ open }) {
         </Link>
         <Link href='/contact'>
           <a>CONTACT</a>
-        </Link>
+        </Link> */}
       </nav>
       <style jsx>{`
         .styled-menu {
