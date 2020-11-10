@@ -1,12 +1,12 @@
 :root {
-  --color-black: black;
+  --color-black: white;
   /* Have option for internet explorer without f6*/
-  --color-darker: #1a1a1a;
-  --color-darker: #1a1a1af6;
-  --color-dark: #38290b;
-  --color-main: #daa53c;
+  --color-darker: #E9DCCB;
+  --color-darker: #E9DCCBf6;
+  --color-dark: ##792359;
+  --color-main: #3B2A32;
   --color-light: #d4ba98;
-  --color-white: #fffefd;
+  --color-white: Black;
   --color-facebook:#3b5998;
   --color-instagram: #fb3958;
   --screen-small: 460px;

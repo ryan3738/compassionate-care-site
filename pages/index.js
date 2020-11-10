@@ -5,7 +5,6 @@ import utilStyles from '../styles/utils.module.css';
 import Date from '../components/date';
 import MenuSection from '../components/menu-section';
 import Double from '../components/double';
-import GalleryGrid from '../components/gallery-grid';
 import Contact from '../components/contact';
 import Button from '../components/button';
 
@@ -30,19 +29,17 @@ export default function Home({ allPostsData, open, setOpen }) {
       </Head>
       <section id='about' className='container'>
         <h1 className='header hidden-header'>ABOUT</h1>
-        <Double category="special"/>
-        <Double category="about"/>
-        <Button buttonText='LEARN MORE ABOUT FRASERS' buttonLink='/about' />
+        {/* <Double category="special"/> */}
+        <Double category='about' />
+        <Button buttonText='LEARN MORE ABOUT GINNY' buttonLink='/about' />
       </section>
       <section id='menu' className='container'>
         <h1 className='header hidden-header'>MENU</h1>
         <MenuSection category='Starters' />
         <MenuSection category='Entrees' />
-        <Button buttonText='SEE FULL MENU ==>' buttonLink='/menu' />
+        <Button buttonText='SEE FULL MENU ==>' buttonLink='/services' />
       </section>
-      <section>
-        <GalleryGrid />
-      </section>
+      <section>{/* <GalleryGrid /> */}</section>
       <section id='contact'>
         <div className='header'>
           <h1 className={utilStyles.lightText}>CONTACT US</h1>

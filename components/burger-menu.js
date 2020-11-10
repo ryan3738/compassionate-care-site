@@ -9,14 +9,17 @@ export default function BurgerMenu({ open }) {
   return (
     <>
       <nav className='styled-menu'>
-        <Link href='/#about'>
-          <a>About us</a>
+        <Link href='/about'>
+          <a>ABOUT</a>
         </Link>
-        <Link href='/#menu'>
-          <a>Menu</a>
+        <Link href='/services'>
+          <a>SERVICES</a>
         </Link>
-        <Link href='/#contact'>
-          <a>Contact</a>
+        <Link href='/rates'>
+          <a>RATES</a>
+        </Link>
+        <Link href='/contact'>
+          <a>CONTACT</a>
         </Link>
       </nav>
       <style jsx>{`

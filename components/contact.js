@@ -1,25 +1,31 @@
 import utilStyles from '../styles/utils.module.css';
 import Social from './social';
+import siteData from '../public/data/site-data.json';
 
 export default function Contact() {
   return (
     <>
-      {/* <div className='contact-header'> */}
-      {/* <h3 className={utilStyles.lightText}>CONTACT US</h3> */}
-      {/* </div> */}
+      {/* <div className='contact-header'>
+      <h1 className={utilStyles.lightText}>CONTACT US</h1>
+      </div> */}
       <div className='contact-content'>
         <div id='contact-info'>
-          <h2>LOCATION</h2>
+          {/* <h2>LOCATION</h2> */}
           <p>
             <span className={utilStyles.lightText}>
-              1191 SE DOCK ST STE 101
+              {siteData.address.street}
               <br />
-              OAK HARBOR, WA 98277
-              <br />
-              <br />
-              <a href='tel:13602791231'>360-279-1231</a>
+              {siteData.address.city}, {siteData.address.state}{' '}
+              {siteData.address.zipCode}
               <br />
               <br />
+              <a href={`tel: ${siteData.phoneNumber}`}>
+                {siteData.phoneNumber}
+              </a>
+              <br />
+              <br />
+              <a href={`mailto: ${siteData.email}`}>Email Us!</a>
+              {/* 
               <b>
                 <a
                   href='https://www.google.com/maps/dir//Frasers+Gourmet+Hideaway+1191+SE+Dock+St+STE+101,+Oak+Harbor,+WA+98277'
@@ -28,12 +34,12 @@ export default function Contact() {
                 >
                   Get Directions
                 </a>
-              </b>
+              </b> */}
             </span>
           </p>
         </div>
 
-        <div className='social-media-container'>
+        {/* <div className='social-media-container'>
           <h3>For specials and event info follow us on social media</h3>
           <div className='social-media-contents'>
             <Social
@@ -49,7 +55,7 @@ export default function Contact() {
               color='--color-facebook'
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <style jsx>{`
         /* .contact-container {

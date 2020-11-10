@@ -7,9 +7,8 @@ import Image from 'next/image';
 import Navigation from '../components/navigation';
 import Button from '../components/button';
 
-const name = 'Frasers';
-export const siteTitle =
-  'Frasers Gourmet Hideaway | Oak Harbor | Pacific Northwest';
+const name = 'Compassionate Care';
+export const siteTitle = 'Compassionate Care | Massage | Bellingham';
 
 export default function Layout({ children, home, open, setOpen }) {
   return (
@@ -19,11 +18,11 @@ export default function Layout({ children, home, open, setOpen }) {
         <link rel='icon' href='/favicon.ico' />
         <meta
           name='description'
-          content='Full service steak and seafood restaurant in Oak Harbor, Washington | Serving Pacific Northwest inspired dishes using fresh and local ingredients.'
+          content='Massage for seniors and low income in Bellingham, Washington | Techniques that best serve the needs of the individual to support a lifetime of health maintenance and harmony.'
         />
         <meta
           name='keywords'
-          content='gourmet, best, northwest, restaurant, steak, seafood, pasta, dessert, fine, dining, dinner, happy, hour, cocktail, wine, beer, oak, harbor, whidbey, island, washington, wa, dine in, dine-in, takeout, table, service,'
+          content='massage, senior, geriatric, low, income, bellingham'
         />
         {/* <meta
           property='og:image'
@@ -42,15 +41,16 @@ export default function Layout({ children, home, open, setOpen }) {
           </>
         ) : (
           <>
+            <Navigation open={open} setOpen={setOpen} />
             <div className='nav-spacer'></div>
             <Link href='/'>
               <a>
-                <img
+                <Image
                   className='link'
-                  src='/images/frasers-logo.gif'
-                  alt='frasers logo'
-                  height='104'
-                  width='228'
+                  src='/images/ginny-redpath-square.jpg'
+                  alt='Picture of Massage Therapist Ginny Redpath'
+                  height='240'
+                  width='240'
                   // layout='fixed'
                   // unsized='true'
                 />
@@ -78,13 +78,16 @@ export default function Layout({ children, home, open, setOpen }) {
           <Link href='/'>
             <a className='nav-link'>HOME</a>
           </Link>
-          <Link href='/#about'>
+          <Link href='/about'>
             <a className='nav-link'>ABOUT</a>
           </Link>
-          <Link href='/#menu'>
-            <a className='nav-link'>MENU</a>
+          <Link href='/services'>
+            <a className='nav-link'>SERVICES</a>
           </Link>
-          <Link href='/#contact'>
+          <Link href='/rates'>
+            <a className='nav-link'>RATES</a>
+          </Link>
+          <Link href='/contact'>
             <a className='nav-link'>CONTACT</a>
           </Link>
         </nav>

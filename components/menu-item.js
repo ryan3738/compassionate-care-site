@@ -11,9 +11,15 @@ const getMenuItem = (menu, category) => {
           return (
             <div key={data['Item Name']} className='menu-item'>
               <h3 className={utilStyles.lightText}>{data['Item Name']}</h3>
-              <p dangerouslySetInnerHTML={{ __html: data.Description }}></p>
+              <p
+                className='accent-text'
+                dangerouslySetInnerHTML={{ __html: data.Description }}
+              ></p>
               <p className={utilStyles.lightText}>{data.Price}</p>
               <style jsx>{`
+                .accent-text {
+                  color: var(--color-white);
+                }
                 .menu-item {
                   text-align: left;
                   border-radius: 7px;
@@ -32,16 +38,15 @@ export default function MenuItem(props) {
   return (
     <div>
       <div className='menu-section'>{getMenuItem(menu, props.category)}</div>
-      <style jsx>
-        {`
+      <style jsx>{`
+          
           .menu-section {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
             grid-gap: 20px;
             padding: 5%;
           }
-        `}
-      </style>
+        `}</style>
     </div>
   );
 }

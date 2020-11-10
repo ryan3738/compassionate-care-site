@@ -3,7 +3,7 @@ import Burger from './burger';
 import BurgerMenu from './burger-menu';
 import React, { useState, useRef } from 'react';
 import { useOnClickOutside } from '../hooks/hooks';
-// import NavList from './nav-list'
+import NavList from './nav-list'
 
 export default function Navigation({ open, setOpen }) {
   const node = useRef();
@@ -26,24 +26,35 @@ export default function Navigation({ open, setOpen }) {
         {/* <NavList></NavList> */}
         <nav className='nav-list'>
           <Link href='/'>
-            <a className='title'>FRASERS</a>
+            <a className='title'>
+              <div>COMPASSIONATE</div>
+              <div className='subtitle'>CARE</div>
+            </a>
           </Link>
-          <Link href='/#about'>
+          <NavList></NavList>
+          {/* <Link href='/about'>
             <a className='nav-link'>ABOUT</a>
           </Link>
-          <Link href='/#menu'>
-            <a className='nav-link'>MENU</a>
+          <Link href='/about'>
+            <a className='nav-link'>ABOUT</a>
           </Link>
-          <Link href='/#contact'>
+          <Link href='/services'>
+            <a className='nav-link'>SERVICES</a>
+          </Link>
+          <Link href='/contact'>
             <a className='nav-link'>CONTACT</a>
-          </Link>
+          </Link> */}
         </nav>
       </div>
       <style jsx>{`
         .title {
-          padding: 0.5em;
-          font-size: 2.2rem;
+          padding: 0.5rem;
+          font-size: 1.55rem;
           color: var(--color-white);
+          text-align: left;
+        }
+        .subtitle {
+          font-size: 1.38316rem;
         }
         .nav-bar {
           right: 0;
