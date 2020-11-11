@@ -8,7 +8,7 @@ export default function Hero() {
         <div className='welcome-logo'>
           <Image
             src='/images/celtic-compassion-symbol.png'
-            alt='Frasers Gourmet Hideaway Logo'
+            alt='Celtic compassion symbol'
             width='100px'
             height='100x'
           />
@@ -72,6 +72,7 @@ export default function Hero() {
           /* padding: 0 10% 10%; */
           grid-area: w;
           background: var(--color-darker);
+          border-radius: 7px;
         }
 
         .welcome-inner-box {

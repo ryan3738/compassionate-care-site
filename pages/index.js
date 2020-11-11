@@ -10,6 +10,7 @@ import Button from '../components/button';
 import Hero from '../components/hero';
 import InfoCards from '../components/info-cards';
 import InfoCard from '../components/info-card';
+import About from '../components/about';
 
 // export async function getStaticProps() {
 //   const allPostsData = getSortedPostsData();
@@ -35,8 +36,9 @@ export default function Home({ allPostsData, open, setOpen }) {
         <h1 className='header hidden-header'>ABOUT</h1>
 
         {/* <Double category="special"/> */}
-        <Double category='about' />
+        {/* <Double category='about' /> */}
         {/* <Button buttonText='LEARN MORE ABOUT GINNY' buttonLink='/about' /> */}
+        <About />
       </section>
       <section id='menu' className='container'>
         <h1 className='header hidden-header'>MENU</h1>

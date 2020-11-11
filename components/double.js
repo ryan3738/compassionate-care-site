@@ -1,22 +1,17 @@
 import doubleItems from '../public/data/double.json';
 import Image from 'next/image';
 
-export default function Double({ children, imageLeft }) {
+export default function Double({ children, title, subtitle, imageSource, imageAlt, imageLeft }) {
   return (
     <>
       <div className='double-container'>
         <div className='double-item double-pic right'>
-          {/* <Image
-            src={data.imageSource}
-            alt={data.imageAlt}
-            height='612'
-            width='612'
-          /> */}
+          <Image src={imageSource} alt={imageAlt} height='612' width='612' />
         </div>
         <div className='double-item double-text left'>
-          <h3 className='alternating-color'>TItle</h3>
-          <h4 className='alternating-color'>Subtitle</h4>
-          <p className='alternating-color'>content</p>
+          <h3 className='alternating-color'>{title}</h3>
+          <h4 className='alternating-color'>{subtitle}</h4>
+          <div className='alternating-color'>{children}</div>
         </div>
         <style jsx>{`
           .double-container {

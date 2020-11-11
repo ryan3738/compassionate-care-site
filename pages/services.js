@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import MenuSection from '../components/menu-section';
 import Double from '../components/double';
 
-export default function Services({ open, setOpen }) {
+export default function ServicesPage({ open, setOpen }) {
   return (
     <Layout open={open} setOpen={setOpen}>
       <Head>
@@ -11,7 +11,7 @@ export default function Services({ open, setOpen }) {
       </Head>
       <section className='menu-container'>
         <h1>SERVICES</h1>
-        <Double category='services'></Double>
+        {/* <Double category='services'></Double> */}
         <MenuSection category='services' />
       </section>
       <style jsx>{`

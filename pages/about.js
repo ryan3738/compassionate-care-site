@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
-import Double from '../components/double';
+import About from '../components/about';
 
-export default function About({ open, setOpen }) {
+export default function AboutPage({ open, setOpen }) {
   return (
     <Layout open={open} setOpen={setOpen}>
       <Head>
@@ -11,7 +11,7 @@ export default function About({ open, setOpen }) {
       <section className='menu-container'>
         <h1>ABOUT</h1>
         {/* <Double category='services' /> */}
-        <Double category='about' />
+        <About />
       </section>
       <style jsx>{`
         .menu-container {
