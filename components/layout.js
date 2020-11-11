@@ -38,17 +38,17 @@ export default function Layout({ children, home, open, setOpen }) {
         {home ? (
           <>
             <Navigation open={open} setOpen={setOpen} />
-            <Hero />
+            <div className='nav-spacer'></div>
           </>
         ) : (
           <>
             <Navigation open={open} setOpen={setOpen} />
             <div className='nav-spacer'></div>
-            <Link href='/'>
+            {/* <Link href='/'>
               <a>
                 <Image
                   className='link'
-                  src='/images/ginny-redpath-square.jpg'
+                  src='/images/lotus-flower-square.jpg'
                   alt='Picture of Massage Therapist Ginny Redpath'
                   height='240'
                   width='240'
@@ -56,25 +56,27 @@ export default function Layout({ children, home, open, setOpen }) {
                   // unsized='true'
                 />
               </a>
-            </Link>
+            </Link> */}
           </>
         )}
       </header>
       <main className={styles.main}>{children}</main>
       {!home && <Button buttonText='<== HOME' buttonLink='/'></Button>}
       <footer className={styles.footer}>
-        <span className='no-wrap'>© 2020 Frasers Gourmet Hideaway |</span>
-        <span className='no-wrap'>
-          &nbsp;Built by:&nbsp;
-          <a
-            className='light-text'
-            href='https://github.com/ryan3738'
-            target='_blank'
-            rel='noreferrer noopener'
-          >
-            Ryan Fraser
-          </a>
-        </span>
+        <div>
+          <span>© 2020 Compassionate Care |</span>
+          <span className='no-wrap'>
+            &nbsp;Built by:&nbsp;
+            <a
+              className='light-text'
+              href='https://github.com/ryan3738'
+              target='_blank'
+              rel='noreferrer noopener'
+            >
+              Ryan Fraser
+            </a>
+          </span>
+        </div>
         <nav className='nav-list'>
           <NavList />
         </nav>

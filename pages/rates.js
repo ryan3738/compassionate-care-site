@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
-import GalleryGrid from '../components/gallery-grid';
 import Image from 'next/image';
+import Double from '../components/double'
+import Contact from '../components/contact'
 
 export default function Rates({ open, setOpen }) {
   return (
@@ -10,7 +11,8 @@ export default function Rates({ open, setOpen }) {
         <title>RATES</title>
       </Head>
       <section className='menu-container'>
-        <h1>RATES</h1>
+        <h1>INFO</h1>
+        <Contact></Contact>
       </section>
       <style jsx>{`
         .menu-container {

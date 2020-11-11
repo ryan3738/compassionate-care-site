@@ -1,43 +1,34 @@
 [
   {
     "Item Name": "Services",
-    "Description": "<ul><li>Gift Certificates</li><li>Hot Rocks</li><li>Scar Tissue Release</li><li>Senior Rate</li><li>Package Plans</li><li>Paraffin Wax</li><li>Referral Incentive</li></ul>",
-    "Category": "Starters",
+    "Description": "<ul><li>Swedish Massage</li><li>Hot Rocks</li><li>Reflexology</li><li>Energy Work</li><li>Injury Treatment</li><li>Hydrotherapy</li><li>Paraffin Wax</li><li>And More</li></ul>",
+    "Category": "services",
     "Modifier": "",
-    "Price": 15,
+    "Price": "",
+    "Available": true
+  }, 
+  {
+    "Item Name": "Body",
+    "Description": "<ul><li>Increase joint flexibility and range of motion</li><li>Relax and loosen tight muscles</li><li>Prevent injury and enhance athletic performance</li><li>Enhance circulation to speed the recovery of tired and sore muscles</li><li>Improve skin texture</li><li>Diminish low back pain and fluid retention from pregnancy</li></ul>",
+    "Category": "services",
+    "Modifier": "",
+    "Price": "",
     "Available": true
   },
   {
-
-    "Item Name": "BEEF & CHORIZO EMPANADAS",
-    "Description": "Rice & black bean salad, chimichurro aioli",
-    "Category": "Starters",
-    "Variation Name": "Regular",
-    "Price": 12,
-    "Tax - Food Tax (8.9%)": "Y",
+    "Item Name": "Mind",
+    "Description": "<ul><li>Reduce the effects of stress</li><li>Improve focus and the ability to concentrate</li><li>Calm the nervous system</li><li>Treat stress-related conditions such as fibromyalgia, tension headaches, and migraines</li></ul>",
+    "Category": "services",
     "Modifier": "",
+    "Price": "",
     "Available": true
   },
   {
-
-    "Item Name": "Example",
-    "Description": "This is an example item, please do not delete :)",
-    "Category": "Entrees",
-    "Modifier": "Add Info -40",
-    "Price": 10,
-    "Available": false
-  },
-  
-  {
-
-    "Item Name": "BEEF BURGUNDY",
-    "Description": "Braised beef medallions in a red wine reduction, house made buttered noodles",
-    "Category": "Entrees",
-    "Variation Name": "Regular",
-    "Price": 26,
-    "Tax - Food Tax (8.9%)": "Y",
+    "Item Name": "Ask About",
+    "Description": "<ul><li>Gift Certificates</li><li>Scar Tissue Release</li><li>Senior Rate</li><li>Package Plans</li><li>Referral Incentives</li></ul>",
+    "Category": "services",
     "Modifier": "",
+    "Price": "",
     "Available": true
-  }
-  
+  }  
 ]

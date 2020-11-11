@@ -10,6 +10,8 @@ export default function About({ open, setOpen }) {
       </Head>
       <section className='menu-container'>
         <h1>ABOUT</h1>
+        {/* <Double category='services' /> */}
+        <Double category='about' />
       </section>
       <style jsx>{`
         .menu-container {

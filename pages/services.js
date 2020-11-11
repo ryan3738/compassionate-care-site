@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import MenuSection from '../components/menu-section';
+import Double from '../components/double';
 
 export default function Services({ open, setOpen }) {
   return (
@@ -10,9 +11,8 @@ export default function Services({ open, setOpen }) {
       </Head>
       <section className='menu-container'>
         <h1>SERVICES</h1>
-        <MenuSection category='Starters' />
-        <MenuSection category='Entrees' />
-        <MenuSection category='Desserts' />
+        <Double category='services'></Double>
+        <MenuSection category='services' />
       </section>
       <style jsx>{`
         .menu-container {

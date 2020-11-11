@@ -3,8 +3,6 @@ import Link from 'next/link';
 export default function NavList(props) {
   return (
     <>
-      {/* <nav className='nav-list'> */}
-      {console.log(props)}
       <Link href='/'>
         <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
           Home
@@ -30,7 +28,6 @@ export default function NavList(props) {
           Contact
         </a>
       </Link>
-      {/* </nav> */}
       <style jsx>{`
         .nav-link {
           text-transform: uppercase;

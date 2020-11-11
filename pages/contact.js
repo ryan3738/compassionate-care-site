@@ -9,7 +9,7 @@ export default function ContactPage({ open, setOpen }) {
         <title>CONTACT</title>
       </Head>
       <section className='menu-container'>
-        <h1>CONTACT US</h1>
+        <h1>INFO</h1>
         <Contact />
       </section>
       <style jsx>{`

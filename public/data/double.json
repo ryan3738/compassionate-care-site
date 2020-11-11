@@ -1,36 +1,56 @@
 [
   {
-    "title": "SPECIAL",
-    "category": "special",
-    "subTitle": "Special subtitle",
-    "content": "This is a special!!!",
+    "title": "Rates",
+    "category": "rates",
+    "subTitle": "SENIORS AND FIXED/LOW INCOME:<br/><br/>FREE 1st VISIT With SLIDING SCALE FOR FUTURE APPOINTMENTS.<br/><br/>$35.00 Minimum",
+    "content": "WE ACCEPT CASH OR CHECK <br/><br/><b>PRICES:</b><br/><ul><li>30 Minutes $35</li><li>60 Minutes $65</li><li>90 Minutes $90</li></ul><b>Please give 24-hours notice to make, change, or cancel an appointment</b>",
     "imageLeft": false,
     "imageSource": "/images/rhubarb-margarita-mayhem-square.jpg",
     "imageAlt": "Rhubarb Margarita Special"
   },
   {
-    "title": "FRASERS DINE IN IS BACK!",
-    "category": "special",
-    "subTitle": "OUR DINING ROOM IS OPEN FOR SERVICE. RESERVATIONS ARE RECOMMENDED. CALL TO PLACE A TAKEOUT ORDER.",
-    "content": "There are many guidelines for us to follow as well as guidelines for our customers to follow. Face masks will be mandatory for entry to the restaurant. Additonal safety precautions and requirements will be posted. We appreciate your cooperation in this endeavor to help us keep our customers and staff safe.",
+    "title": "Swedish Massage",
+    "category": "services",
+    "subTitle": "Ginny Redpath's technical expertise includes Swedish Massage, reflexology, energy work, injury treatment, hydrotherapy & much more.",
+    "content": "The process may include Swedish movements such as effleurage, petrissage, tapotement, compression, vibration, friction, and nerve strokes. These techniques can be done by hand or with a mechanical or electrical apparatus.  Oils, hot and cold packs, and hot rock offer additional relief.",
     "imageLeft": true,
-    "imageSource": "/images/pig-were-back.jpg",
-    "imageAlt": "Pig holding a sign that says We're Back"
+    "imageSource": "/images/massage-senior-square.jpg",
+    "imageAlt": "Swedish massage of a client"
   },
   {
-    "title": "FRASERS GOURMET HIDEAWAY",
+    "title": "Hot Rock Massage",
+    "category": "services",
+    "subTitle": "Ginny Redpath's technical expertise includes Swedish Massage, reflexology, energy work, injury treatment, hydrotherapy & much more.",
+    "content": "The process may include Swedish movements such as effleurage, petrissage, tapotement, compression, vibration, friction, and nerve strokes. These techniques can be done by hand or with a mechanical or electrical apparatus.  Oils, hot and cold packs, and hot rock offer additional relief.",
+    "imageLeft": true,
+    "imageSource": "/images/massage-senior-square.jpg",
+    "imageAlt": "Swedish massage of a client"
+  },
+  {
+    "title": "Injury Treatment",
+    "category": "services",
+    "subTitle": "Ginny Redpath's technical expertise includes Swedish Massage, reflexology, energy work, injury treatment, hydrotherapy & much more.",
+    "content": "The process may include Swedish movements such as effleurage, petrissage, tapotement, compression, vibration, friction, and nerve strokes. These techniques can be done by hand or with a mechanical or electrical apparatus.  Oils, hot and cold packs, and hot rock offer additional relief.",
+    "imageLeft": true,
+    "imageSource": "/images/massage-senior-square.jpg",
+    "imageAlt": "Swedish massage of a client"
+  },
+  {
+    "title": "Compassionate Care",
     "category": "about",
     "subTitle": "",
-    "content": "is owned and operated by Chef Scott Fraser. Inside the rightly named gourmet hideaway, guests will notice a relaxing environment where food and drinks are the focal point. Come enjoy a seasonal menu of the freshest local Northwest ingredients. Pair this with a vibrant West Coast wine, handcrafted cocktail, or a nice cold beer.",
+    "content": "is owned and operated by Licensed Massage Therapist Ginny Redpath. Here at Compassionate Care we primarily work with the senior community and those without the resources to pay out of pocket for massage treatment. We like to collaborate with clients that are interested in self-care focusing on a combination of body, mind, and spirit. We believe strongly in client confidentialy and hope to help you promote safety and healing in your pursuit of health care options.",
     "imageLeft": false,
-    "imageSource": "/images/frasers-enter-dining-room.jpg",
-    "imageAlt": "Frasers gourmet hideaway dining room"
+    "imageSource": "/images/lotus-flower-square.jpg",
+    "imageAlt": "A lotus flower in the sun, a sign of Compassion, Courage, Mindfulness, Peace, & Wisdom"
   },
   {
     "title": "Ginny Redpath",
     "category": "about",
     "subTitle": "",
-    "content": "Professional massage licensing programs include Mueller College of Holistic Studies-San Diego and Brian Utting School of Massage-Seattle. Her technical expertise includes Swedish, reflexology, energy work, injury treatment ,hydrotherapy.& much more. She has over 25 years of experience as a Licensed Massage Therapist serving Labor & Industry, Auto, HMO claims.  Has also worked in chiropractic clinics, retirement homes, salons and spas as well as private practice. Ginny focuses on Body + Mind and Spirit.  Her desired client profile is self-care and collaborating with each client.  She is focusing on the senior community (who often need massage for which Medicare will not pay for), as well as those in need without resources to pay out of pocket for treatment. She supports safety, healing and respect of client confidentiality. Is a resource for many health care options. Ginny pursues training in alternative massage techniques. *Professional member of  American Massage Therapy Association and strives to promote holistic health & well being.",
+    "content": "is a graduate of Mueller College of Holistic Studies in San Diego and Brian Utting School of Massage in Seattle. With over 25 years of experience as a Licensed Massage Therapist, Ginny has worked at spas, salons, privates practices, retirement homes, and chiropractic clinics. Ginny’s goal is to offer techniques that best serve the needs of the individual supporting a lifetime of health maintenance and harmony.",
+    
+    
     "imageLeft": true,
     "imageSource": "/images/ginny-redpath-square.jpg",
     "imageAlt": "Ginny Redpath portrait"

@@ -1,15 +1,24 @@
 :root {
-  --color-black: white;
+  --color-black: #E9DCCB;
   /* Have option for internet explorer without f6*/
-  --color-darker: #E9DCCB;
-  --color-darker: #E9DCCBf6;
+  --color-darker: #C4ABB5;
+  --color-darker: #C4ABB5f6;
   --color-dark: ##792359;
-  --color-main: #3B2A32;
+  --color-main: #5D323F;
   --color-light: #d4ba98;
   --color-white: Black;
   --color-facebook:#3b5998;
   --color-instagram: #fb3958;
   --screen-small: 460px;
+}
+
+
+.theme {
+--main: #5D323F;
+--main: #3B2A32;
+--main: #E9DCCB;
+--main: #C4ABB5;
+--main: #904D54;
 }
 
 html {

@@ -9,8 +9,8 @@ export default function Custom404() {
         <h1>404 - Page Not Found</h1>
         <Image
           className='image404'
-          src='/images/scott_fraser_square.jpg'
-          alt='Scott holding a salmon'
+          src='/images/lotus-flower-square.jpg'
+          alt='Lotus flower'
           height='612'
           width='612'
         />
