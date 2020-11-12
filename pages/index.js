@@ -142,9 +142,9 @@ export default function Home({ allPostsData, open, setOpen }) {
         <div className='header'>
           <h1 className={utilStyles.lightText}>CONTACT US</h1>
         </div>
-        <h4>
+        <strong>
           Please give 24-hours notice to make, change, or cancel an appointment
-        </h4>
+        </strong>
         <Contact></Contact>
       </section>
       <style jsx>{`
