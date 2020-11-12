@@ -18,8 +18,7 @@ export default function About() {
               harmony.
             </li>
             <li>
-              I offer a sliding scale for seniors and fixed/low income clients
-              with a $35.00 minimum
+              I offer a sliding scale for seniors and fixed/low income clients.
             </li>
           </ul>
         </Double>
