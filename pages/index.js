@@ -120,7 +120,7 @@ export default function Home({ allPostsData, open, setOpen }) {
           <InfoCard header='Ask About'>
             <ul>
               <li>Gift Certificates</li>
-              <li>Senior Rate</li>
+              <li>Senior Rates</li>
               <li>Package Plans</li>
               <li>Referral Incentives</li>
             </ul>

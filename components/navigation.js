@@ -32,7 +32,7 @@ export default function Navigation({ open, setOpen }) {
         .title {
           padding: 0.5rem;
           font-size: 1.55rem;
-          color: var(--color-white);
+          color: var(--color-main);
           text-align: left;
         }
         .subtitle {
