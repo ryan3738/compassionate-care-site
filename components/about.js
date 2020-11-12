@@ -12,15 +12,15 @@ export default function About() {
         >
           <ul>
             <li>
-              I am a fully qualified licensed and insured massage therapist.
+              I am a fully qualified, licensed, and insured massage therapist
             </li>
             <li>
               My goal is to offer techniques that best serve the needs of the
               individual and support a lifetime of health maintenance and
-              harmony.
+              harmony
             </li>
             <li>
-              I offer a sliding scale for seniors and fixed/low income clients.
+              I offer a sliding scale for seniors and fixed/low income clients
             </li>
           </ul>
         </Double>
@@ -38,15 +38,15 @@ export default function About() {
             <li>
               Graduate of professional massage licensing programs at Mueller
               College of Holistic Studies in San Diego and Brian Utting School
-              of Massage in Seattle.
+              of Massage in Seattle
             </li>
             <li>
-              25 years of experience as a Licensed Massage Therapist serving
-              L&I, Auto, and HMO claims.
+              25 years of experience serving
+              L&I, Auto, and HMO claims
             </li>
             <li>
               Worked at spas, salons, private practices, retirement homes, and
-              chiropractic clinics.
+              chiropractic clinics
             </li>
           </ul>
         </Double>
