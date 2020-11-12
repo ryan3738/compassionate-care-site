@@ -55,7 +55,7 @@ export default function Home({ allPostsData, open, setOpen }) {
             you think they are minor.
             <br />
             <br />I may assess the situation by gently feeling for tenderness,
-            looking at your posture, and checking the restricted or painful
+            looking at your posture, and checking for restricted or painful
             movement.
           </p>
         </Double>
@@ -148,7 +148,6 @@ export default function Home({ allPostsData, open, setOpen }) {
         <Contact></Contact>
       </section>
       <style jsx>{`
-        
         .header {
           padding: 5rem 0 0;
         }
