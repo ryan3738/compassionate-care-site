@@ -1,4 +1,4 @@
-export default function InfoCards({ children, header}) {
+export default function InfoCards({ children, header }) {
   return (
     <div className='menu-container'>
       <h2 className='info-header'>{header}</h2>
@@ -12,7 +12,7 @@ export default function InfoCards({ children, header}) {
           padding: 5%;
           /* justify-items: center; */
           /* align-items: start; */
-          justify-content: stretch;
+          /* justify-content: stretch; */
         }
 
         .line {

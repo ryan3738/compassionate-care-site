@@ -8,22 +8,22 @@ export default function NavList(props) {
           Home
         </a>
       </Link>
-      <Link href='/about'>
+      <Link href='/#about'>
         <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
           ABOUT
         </a>
       </Link>
-      <Link href='/services'>
+      <Link href='/#services'>
         <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
           SERVICES
         </a>
       </Link>
-      <Link href='/rates'>
+      <Link href='/#rates'>
         <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
           Rates
         </a>
       </Link>
-      <Link href='/contact'>
+      <Link href='/#contact'>
         <a className={`nav-link ${'showOnLarge' in props && 'show-on-large'}`}>
           Contact
         </a>

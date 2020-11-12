@@ -1,14 +1,42 @@
 import doubleItems from '../public/data/double.json';
 import Image from 'next/image';
 
-export default function Double({ children, title, subtitle, imageSource, imageAlt, imageLeft }) {
+export default function Double({
+  children,
+  title,
+  subtitle,
+  imageSource,
+  imageAlt,
+  imageLeft,
+  rightText,
+  rightTitle,
+  rightSubtitle,
+}) {
   return (
     <>
       <div className='double-container'>
-        <div className='double-item double-pic right'>
-          <Image src={imageSource} alt={imageAlt} height='612' width='612' />
-        </div>
-        <div className='double-item double-text left'>
+        {imageSource ? (
+          <>
+            <div className='double-item double-right'>
+              <Image
+                src={imageSource}
+                alt={imageAlt}
+                height='612'
+                width='612'
+              />
+            </div>
+          </>
+        ) : (
+          <>
+            <div className='double-item double-text double-right'>
+              <h3 className='alternating-color'>{rightTitle}</h3>
+              <h4 className='alternating-color'>{rightSubtitle}</h4>
+              <div className='alternating-color'>{rightText}</div>
+            </div>
+          </>
+        )}
+
+        <div className='double-item double-text double-left'>
           <h3 className='alternating-color'>{title}</h3>
           <h4 className='alternating-color'>{subtitle}</h4>
           <div className='alternating-color'>{children}</div>
@@ -38,13 +66,14 @@ export default function Double({ children, title, subtitle, imageSource, imageAl
             width: 100%;
             max-height: 100%;
           }
-
-          .double-pic {
+          .double-text {
+            margin: 1rem 10% 5rem;
+          }
+          .double-right {
             grid-area: p1;
           }
 
-          .double-text {
-            margin: 1rem 10% 5rem;
+          .double-left {
             grid-area: t1;
           }
 
@@ -62,11 +91,11 @@ export default function Double({ children, title, subtitle, imageSource, imageAl
             .double-container {
               grid-template-areas: '. l l l l l r r r r r .';
             }
-            .double-pic {
+            .double-right {
               grid-area: ${imageLeft ? 'l' : 'r'};
             }
 
-            .double-text {
+            .double-left {
               grid-area: ${imageLeft ? 'r' : 'l'};
             }
           }

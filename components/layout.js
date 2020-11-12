@@ -35,30 +35,8 @@ export default function Layout({ children, home, open, setOpen }) {
         <meta name='twitter:card' content='summary_large_image' /> */}
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <Navigation open={open} setOpen={setOpen} />
-            <div className='nav-spacer'></div>
-          </>
-        ) : (
-          <>
-            <Navigation open={open} setOpen={setOpen} />
-            <div className='nav-spacer'></div>
-            {/* <Link href='/'>
-              <a>
-                <Image
-                  className='link'
-                  src='/images/lotus-flower-square.jpg'
-                  alt='Picture of Massage Therapist Ginny Redpath'
-                  height='240'
-                  width='240'
-                  // layout='fixed'
-                  // unsized='true'
-                />
-              </a>
-            </Link> */}
-          </>
-        )}
+        <Navigation open={open} setOpen={setOpen} />
+        <div className='nav-spacer'></div>
       </header>
       <main className={styles.main}>{children}</main>
       {!home && <Button buttonText='<== HOME' buttonLink='/'></Button>}
@@ -77,11 +55,22 @@ export default function Layout({ children, home, open, setOpen }) {
             </a>
           </span>
         </div>
+        {/* <div className='scroll-down'>
+          <h6>SCROLL DOWN</h6>
+        </div> */}
         <nav className='nav-list'>
           <NavList />
         </nav>
       </footer>
       <style jsx>{`
+        .scroll-down {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          background: ;
+        }
         .light-text {
           color: var(--color-white);
         }

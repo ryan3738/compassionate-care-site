@@ -394,7 +394,9 @@ ul {
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
-  list-style-image: none;
+  /* remove indent and bullet */
+  display: table-row;
+  list-style-type: none;
 }
 ol {
   margin-left: 1.45rem;

@@ -9,7 +9,7 @@ export default function Contact() {
       <h1 className={utilStyles.lightText}>CONTACT US</h1>
       </div> */}
       <div className='content-container'>
-        <div className='left-container'>
+        {/* <div className='left-container'>
           <h3>RATES</h3>
           <h4>WE ACCEPT CASH OR CHECK</h4>
           <div>
@@ -32,10 +32,10 @@ export default function Contact() {
               Please give 24-hours notice to make, change, or cancel an
               appointment
             </h4>
-        </div>
+        </div> */}
 
         <div className='right-container'>
-          <h2>CONTACT US</h2>
+          {/* <h2>CONTACT US</h2> */}
           <div>
             {siteData.address.street}
             <br />
@@ -44,10 +44,14 @@ export default function Contact() {
           </div>
 
           <div>
-            <a href={`tel: ${siteData.phoneNumber}`}>{siteData.phoneNumber}</a>
+            <b>
+              <a href={`tel: ${siteData.phoneNumber}`}>
+                {siteData.phoneNumber}
+              </a>
+            </b>
           </div>
           <div>
-            <a href={`mailto: ${siteData.email}`}>EMAIL US</a>
+            <a href={`mailto: ${siteData.email}`}>EMAIL ME</a>
           </div>
           {/* 
               <b>
@@ -75,16 +79,22 @@ export default function Contact() {
           flex-flow: row wrap;
           justify-content: center;
           align-items: flex-start;
+          font-size: 1.1rem;
+          min-height: 66vh;
         }
         .right-container {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          margin: 10px;
+          margin: 2rem 0.1rem;
+          border-radius: 7px;
+          padding: 5%;
+          background: var(--color-darker);
+          min-width: 33vw;
         }
 
-        .right-container > div{
+        .right-container > div {
           padding: 0.5rem;
         }
         .social-media-contents {

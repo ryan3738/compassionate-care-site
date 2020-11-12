@@ -34,69 +34,115 @@ export default function Home({ allPostsData, open, setOpen }) {
       <Hero />
       <section id='about' className='container'>
         <h1 className='header hidden-header'>ABOUT</h1>
-
-        {/* <Double category="special"/> */}
-        {/* <Double category='about' /> */}
-        {/* <Button buttonText='LEARN MORE ABOUT GINNY' buttonLink='/about' /> */}
         <About />
       </section>
-      <section id='menu' className='container'>
-        <h1 className='header hidden-header'>MENU</h1>
-        <InfoCards header=''>
-          <InfoCard header='Services'>
-            <ul>
-              <li>Swedish Massage</li>
-              <li>Hot Rocks</li>
-              <li>Reflexology</li>
-              <li>Energy Work</li>
-              <li>Injury Treatment</li>
-              <li>Hydrotherapy</li>
-              <li>Paraffin Wax</li>
-              <li>And More</li>
-            </ul>
-          </InfoCard>
-          <InfoCard header='body'>
-            <ul>
-              <li>Increase joint flexibility and range of motion</li>
-              <li>Relax and loosen tight muscles</li>
-              <li>Prevent injury and enhance athletic performance</li>
-              <li>
-                Enhance circulation to speed the recovery of tired and sore
-                muscles
-              </li>
-              <li>Improve skin texture</li>
-              <li>Diminish low back pain and fluid retention from pregnancy</li>
-            </ul>
-          </InfoCard>
-          <InfoCard header='mind'>
-            <ul>
-              <li>Reduce the effects of stress</li>
-              <li>Improve focus and the ability to concentrate</li>
-              <li>Calm the nervous system</li>
-              <li>
-                Treat stress-related conditions such as fibromyalgia, tension
-                headaches, and migraines
-              </li>
-            </ul>
-          </InfoCard>
-          <InfoCard header='ask about'>
+      <section id='services' className='container'>
+        <h1 className='header hidden-header'>Services</h1>
+        <Double
+          title='Your Treatment Plan'
+          imageSource='/images/massage-senior-square.jpg'
+          imageAlt='shoulders being massaged'
+          imageLeft
+        >
+          <p>
+            On your first visit, I will ask general health questions and review
+            any referring practitioners’ diagnoses and recommendations. If you
+            have medical concerns about specific areas, please tell me even if
+            you think they are minor.
+            <br />
+            <br />I may assess the situation by gently feeling for tenderness,
+            looking at your posture, and checking the restricted or painful
+            movement. Together we will develop a massage plan that will take
+            into consideration your situation, its severity, and your general
+            health.
+          </p>
+        </Double>
+        <Double
+          title='Our Services'
+          imageSource='/images/hot-rocks-massage-square.jpg'
+          imageAlt='Hot massage rocks on persons back'
+        >
+          <ul>
+            <li>Swedish Massage</li>
+            <li>Hot Rocks</li>
+            <li>Reflexology</li>
+            <li>Energy Work</li>
+            <li>Injury Treatment</li>
+            <li>Hydrotherapy</li>
+            <li>Paraffin</li>
+          </ul>
+        </Double>
+        <h1 className='header'>Benefits of Massage</h1>
+        <Double
+          title='Body'
+          imageSource='/images/massage-back-square.jpg'
+          imageAlt='shoulders being massaged'
+          imageLeft
+        >
+          <ul>
+            <li>Increase joint flexibility and range of motion</li>
+            <li>Relax and loosen tight muscles</li>
+            <li>Prevent injury and enhance athletic performance</li>
+            <li>
+              Enhance circulation to speed the recovery of tired and sore
+              muscles
+            </li>
+            <li>Improve skin texture</li>
+            <li>Diminish low back pain and fluid retention from pregnancy</li>
+          </ul>
+        </Double>
+        <Double
+          title='Mind'
+          imageSource='/images/meditation-square.jpg'
+          imageAlt='Hot massage rocks on persons back'
+        >
+          <ul>
+            <li>Reduce the effects of stress</li>
+            <li>Calm the nervous system</li>
+            <li>Improve focus and the ability to concentrate</li>
+            <li>
+              Treat stress-related conditions such as fibromyalgia, tension
+              headaches, and migraines
+            </li>
+          </ul>
+        </Double>
+      </section>
+      <section id='rates' className='container'>
+        <div className='header'>
+          <h1 className={utilStyles.lightText}>RATES</h1>
+        </div>
+        <InfoCards>
+          <InfoCard header='$35'>per 1/2 hour</InfoCard>
+          <InfoCard header='$65'>per 1 hour</InfoCard>
+          <InfoCard header='$90'>per 1 1/2 hours</InfoCard>
+          <InfoCard header='Ask About'>
             <ul>
               <li>Gift Certificates</li>
-              <li>Scar Tissue Release</li>
               <li>Senior Rate</li>
               <li>Package Plans</li>
               <li>Referral Incentives</li>
             </ul>
           </InfoCard>
         </InfoCards>
-        {/* <MenuSection category='services' /> */}
-        {/* <Button buttonText='Learn More ==>' buttonLink='/services' /> */}
+        <div>
+          <h4>WE ACCEPT CASH OR CHECK</h4>
+          <div>
+            <h4 className='sub-heading'>SENIORS AND FIXED/LOW INCOME:</h4>
+            <p>
+              FREE 1st visit with sliding scale for future appointments
+              <br />
+              $35.00 Minimum
+            </p>
+          </div>
+        </div>
       </section>
-      <section>{/* <GalleryGrid /> */}</section>
       <section id='contact'>
         <div className='header'>
           <h1 className={utilStyles.lightText}>CONTACT US</h1>
         </div>
+        <h4>
+          Please give 24-hours notice to make, change, or cancel an appointment
+        </h4>
         <Contact></Contact>
       </section>
       <style jsx>{`
@@ -110,6 +156,10 @@ export default function Home({ allPostsData, open, setOpen }) {
         .container {
           width: 100vw;
           max-width: 1200px;
+        }
+        .double-text {
+          display: flex;
+          flex-direction: row;
         }
         @media (min-width: 460px) {
         }

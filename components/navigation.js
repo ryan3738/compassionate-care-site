@@ -49,8 +49,21 @@ export default function Navigation({ open, setOpen }) {
             <a className='nav-link'>CONTACT</a>
           </Link> */}
         </nav>
+        {/* <div className='scroll-down'>
+          <h6>SCROLL DOWN</h6>
+        </div> */}
       </div>
       <style jsx>{`
+        .scroll-down {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          background: var(--color-darker);
+          height: 1em;
+        }
+
         .title {
           padding: 0.5rem;
           font-size: 1.55rem;

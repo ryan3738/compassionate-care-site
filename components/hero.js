@@ -14,8 +14,6 @@ export default function Hero() {
           />
         </div>
         <div className='welcome-box'>
-          {/* <p className='scroll-text'>SCROLL DOWN</p> */}
-
           <div className='welcome-inner-box'>
             <h2 className='hide-small'>Compassionate Care</h2>
             <h3>Ginny Redpath</h3>
@@ -40,13 +38,6 @@ export default function Hero() {
           width: 100%;
           height: 0px;
         }
-      .scroll-text{
-        font-size: 0.5rem;
-        margin: 1% 0 1%;
-        /* position: absolute; */
-        /* padding: 10%; */
-        /* margin: 10%; */
-      }
         .welcome-container {
           width: 100%;
           min-height: 50vh;
