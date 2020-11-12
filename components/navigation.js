@@ -13,17 +13,11 @@ export default function Navigation({ open, setOpen }) {
     <>
       <div className='nav-bar'>
         <div className='burger'>
-          {/* <div>
-            <Link href='/'>
-              <a className='title'>FRASERS</a>
-            </Link>
-          </div> */}
           <div ref={node}>
             <Burger open={open} setOpen={setOpen} />
           </div>
           <BurgerMenu open={open} setOpen={setOpen} />
         </div>
-        {/* <NavList></NavList> */}
         <nav className='nav-list'>
           <Link href='/'>
             <a className='title'>
@@ -32,38 +26,9 @@ export default function Navigation({ open, setOpen }) {
             </a>
           </Link>
           <NavList showOnLarge />
-
-          {/* <Link href='/'>
-            <a className='nav-link'>HOME</a>
-          </Link>
-          <Link href='/about'>
-            <a className='nav-link'>ABOUT</a>
-          </Link>
-          <Link href='/about'>
-            <a className='nav-link'>ABOUT</a>
-          </Link>
-          <Link href='/services'>
-            <a className='nav-link'>SERVICES</a>
-          </Link>
-          <Link href='/contact'>
-            <a className='nav-link'>CONTACT</a>
-          </Link> */}
         </nav>
-        {/* <div className='scroll-down'>
-          <h6>SCROLL DOWN</h6>
-        </div> */}
       </div>
       <style jsx>{`
-        .scroll-down {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          text-align: center;
-          background: var(--color-darker);
-          height: 1em;
-        }
-
         .title {
           padding: 0.5rem;
           font-size: 1.55rem;

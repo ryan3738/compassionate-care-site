@@ -22,15 +22,6 @@ export default function About() {
               with a $35.00 minimum
             </li>
           </ul>
-          {/* <p>
-            is a graduate of Mueller College of Holistic Studies in San Diego
-            and Brian Utting School of Massage in Seattle. With over 25 years of
-            experience as a Licensed Massage Therapist, Ginny has worked at
-            spas, salons, privates practices, retirement homes, and chiropractic
-            clinics. Ginny’s goal is to offer techniques that best serve the
-            needs of the individual supporting a lifetime of health maintenance
-            and harmony.
-          </p> */}
         </Double>
         <Double
           title='Qualifications'
@@ -56,19 +47,12 @@ export default function About() {
             </li>
             {/* <div className='line'></div> */}
             <li>
-              Worked at spas, salons, privates practices, retirement homes, and
+              Worked at spas, salons, private practices, retirement homes, and
               chiropractic clinics.
             </li>
             {/* <div className='line'></div> */}
-            <li>Fully licensed and insured in the U.S.</li>
+            <li>Fully licensed and insured</li>
           </ul>
-          {/* is a graduate of Mueller College of Holistic Studies in San Diego and
-          Brian Utting School of Massage in Seattle. With over 25 years of
-          experience as a Licensed Massage Therapist, Ginny has worked at spas,
-          salons, privates practices, retirement homes, and chiropractic
-          clinics. Ginny’s goal is to offer techniques that best serve the needs
-          of the individual supporting a lifetime of health maintenance and
-          harmony. */}
         </Double>
       </section>
       <style jsx>{`
