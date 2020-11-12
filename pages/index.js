@@ -45,6 +45,10 @@ export default function Home({ allPostsData, open, setOpen }) {
           imageLeft
         >
           <p>
+            Together we will develop a massage plan that will take into
+            consideration your situation, its severity, and your general health.
+            <br />
+            <br />
             On your first visit, I will ask general health questions and review
             any referring practitioners’ diagnoses and recommendations. If you
             have medical concerns about specific areas, please tell me even if
@@ -52,9 +56,7 @@ export default function Home({ allPostsData, open, setOpen }) {
             <br />
             <br />I may assess the situation by gently feeling for tenderness,
             looking at your posture, and checking the restricted or painful
-            movement. Together we will develop a massage plan that will take
-            into consideration your situation, its severity, and your general
-            health.
+            movement.
           </p>
         </Double>
         <Double
