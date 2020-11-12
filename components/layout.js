@@ -88,7 +88,7 @@ export default function Layout({ children, home, open, setOpen }) {
         }
 
         .nav-spacer {
-          height: 5em;
+          height: 4em;
         }
         .nav-list {
           display: flex;
