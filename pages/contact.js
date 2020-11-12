@@ -19,6 +19,7 @@ export default function ContactPage({ open, setOpen }) {
           place-self: center;
         }
       `}</style>
+      
     </Layout>
   );
 }

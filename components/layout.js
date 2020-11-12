@@ -39,6 +39,14 @@ export default function Layout({ children, home, open, setOpen }) {
         <div className='nav-spacer'></div>
       </header>
       <main className={styles.main}>{children}</main>
+      <div className='welcome-logo'>
+        <Image
+          src='/images/celtic-compassion-symbol.png'
+          alt='Celtic compassion symbol'
+          width='100px'
+          height='100x'
+        />
+      </div>
       {!home && <Button buttonText='<== HOME' buttonLink='/'></Button>}
       <footer className={styles.footer}>
         <div>
@@ -63,13 +71,13 @@ export default function Layout({ children, home, open, setOpen }) {
         </nav>
       </footer>
       <style jsx>{`
-        .scroll-down {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          text-align: center;
-          background: ;
+        .welcome-logo {
+          grid-area: l;
+          max-width: 100%;
+          max-height: auto;
+          margin: auto;
+          display: block;
+          padding: 2rem;
         }
         .light-text {
           color: var(--color-white);

@@ -11,7 +11,9 @@ export default function About() {
           imageLeft={true}
         >
           <ul>
-            <li>I am a fully qualified and insured massage therapist.</li>
+            <li>
+              I am a fully qualified licensed and insured massage therapist.
+            </li>
             <li>
               My goal is to offer techniques that best serve the needs of the
               individual and support a lifetime of health maintenance and

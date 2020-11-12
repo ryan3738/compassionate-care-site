@@ -80,7 +80,7 @@ export default function Contact() {
           justify-content: center;
           align-items: flex-start;
           font-size: 1.1rem;
-          min-height: 66vh;
+          min-height: 33vh;
         }
         .right-container {
           display: flex;

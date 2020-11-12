@@ -148,6 +148,7 @@ export default function Home({ allPostsData, open, setOpen }) {
         <Contact></Contact>
       </section>
       <style jsx>{`
+        
         .header {
           padding: 5rem 0 0;
         }
