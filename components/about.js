@@ -30,42 +30,33 @@ export default function About() {
           imageAlt='Lotus flower'
           imageLeft={false}
         >
-          {/* <div className='line'></div> */}
-          <ul className='no-bullets'>
+          <ul className='list-style'>
+            <li>Fully licensed and insured</li>
             <li>
               Professional Member of the American Massage Therapy Association
             </li>
-            {/* <div className='line'></div> */}
             <li>
               Graduate of professional massage licensing programs at Mueller
               College of Holistic Studies in San Diego and Brian Utting School
               of Massage in Seattle.
             </li>
-            {/* <div className='line'></div> */}
             <li>
               25 years of experience as a Licensed Massage Therapist serving
-              Labor & Industry, Auto, and HMO claims.
+              L&I, Auto, and HMO claims.
             </li>
-            {/* <div className='line'></div> */}
             <li>
               Worked at spas, salons, private practices, retirement homes, and
               chiropractic clinics.
             </li>
-            {/* <div className='line'></div> */}
-            <li>Fully licensed and insured</li>
           </ul>
         </Double>
       </section>
       <style jsx>{`
-        .no-bullets {
+        .list-style {
           display: table-row;
-          /* list-style-type: none; */
-          /* padding: 0; */
-          /* margin-left: 1.2em; */
-          /* border: 2px solid #c141f4; */
         }
-        .no-bullets > li {
-          padding: 10px -10px;
+        .list-style > li {
+          padding: 10px 0;
           border-bottom: 2px solid var(--color-main);
         }
         .line {
