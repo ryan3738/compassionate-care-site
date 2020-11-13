@@ -20,12 +20,16 @@ export default function Hero() {
             <div className='line'></div>
             <br />
             <h4>Licensed Massage Therapist</h4>
-            <h5> CALL TO MAKE AN APPOINTMENT</h5>
+            <h5> CALL OR EMAIL TO MAKE AN APPOINTMENT</h5>
             <b>
               <a href={`tel: ${siteData.phoneNumber}`}>
                 {siteData.phoneNumber}
               </a>
             </b>
+            <div>
+              <br />
+              <a href={`mailto: ${siteData.email}`}>EMAIL ME</a>
+            </div>
           </div>
         </div>
       </div>

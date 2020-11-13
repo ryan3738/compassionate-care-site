@@ -54,7 +54,8 @@ export default function Home({ allPostsData, open, setOpen }) {
             have medical concerns about specific areas, please tell me even if
             you think they are minor.
             <br />
-            <br />I may assess the situation by gently feeling for tenderness,
+            <br />
+            I may assess the situation by gently feeling for tenderness,
             looking at your posture, and checking for restricted or painful
             movement.
           </p>
@@ -113,10 +114,16 @@ export default function Home({ allPostsData, open, setOpen }) {
         <div className='header'>
           <h1 className={utilStyles.lightText}>RATES</h1>
         </div>
-        <InfoCards>
-          <InfoCard header='$35'>per 1/2 hour</InfoCard>
-          <InfoCard header='$65'>per 1 hour</InfoCard>
-          <InfoCard header='$90'>per 1 1/2 hours</InfoCard>
+        <InfoCards header='1st Visit is Free'>
+          <InfoCard header='$35'>
+            <div className='rate-text'>per 1/2 hour</div>
+          </InfoCard>
+          <InfoCard header='$65'>
+            <div className='rate-text'>per 1 hour</div>
+          </InfoCard>
+          <InfoCard header='$90'>
+            <div className='rate-text'>per 1 1/2 hours</div>
+          </InfoCard>
           <InfoCard header='Ask About'>
             <ul>
               <li>Gift Certificates</li>
@@ -130,11 +137,7 @@ export default function Home({ allPostsData, open, setOpen }) {
           <h4>WE ACCEPT CASH OR CHECK</h4>
           <div>
             <h4 className='sub-heading'>SENIORS AND FIXED/LOW INCOME:</h4>
-            <p>
-              FREE 1st visit with sliding scale for future appointments
-              <br />
-              $35.00 Minimum
-            </p>
+            <p>Sliding scale rate with a $35.00 minimum</p>
           </div>
         </div>
       </section>
@@ -148,6 +151,9 @@ export default function Home({ allPostsData, open, setOpen }) {
         <Contact></Contact>
       </section>
       <style jsx>{`
+        .rate-text {
+          font-size: 1.19158rem;
+        }
         .header {
           padding: 5rem 0 0;
         }
