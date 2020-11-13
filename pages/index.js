@@ -46,7 +46,7 @@ export default function Home({ allPostsData, open, setOpen }) {
         >
           <p>
             Together we will develop a massage plan that will take into
-            consideration your situation, its severity, and your general health.
+            consideration your situation, its severity, and your overall health.
             <br />
             <br />
             On your first visit, I will ask general health questions and review
