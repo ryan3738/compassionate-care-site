@@ -91,7 +91,7 @@ export default function Home({ allPostsData, open, setOpen }) {
               muscles
             </li>
             <li>Improve skin texture</li>
-            <li>Diminish low back pain and fluid retention from pregnancy</li>
+            <li>Diminish low back pain and fluid retention</li>
           </ul>
         </Double>
         <Double
