@@ -28,7 +28,7 @@ export default function Hero() {
             </b>
             <div>
               <br />
-              <a href={`mailto: ${siteData.email}`}>EMAIL ME</a>
+              <a href={`mailto: ${siteData.email}`}>{siteData.email}</a>
             </div>
           </div>
         </div>

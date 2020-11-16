@@ -51,7 +51,7 @@ export default function Contact() {
             </b>
           </div>
           <div>
-            <a href={`mailto: ${siteData.email}`}>EMAIL ME</a>
+            <a href={`mailto: ${siteData.email}`}>{siteData.email}</a>
           </div>
           {/* 
               <b>

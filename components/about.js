@@ -41,7 +41,7 @@ export default function About() {
               of Massage in Seattle
             </li>
             <li>
-              With over 25 years of experience serving
+              Over 25 years of practice experience serving
               L&I, Auto, and HMO claims
             </li>
             <li>

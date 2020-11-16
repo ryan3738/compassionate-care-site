@@ -52,12 +52,15 @@ export default function Home({ allPostsData, open, setOpen }) {
             On your first visit, I will ask general health questions and review
             any referring practitioners’ diagnoses and recommendations. If you
             have medical concerns about specific areas, please tell me even if
-            you think they are minor.
+            you think they are minor. I may assess the situation by gently
+            feeling for tenderness, looking at your posture, and checking for
+            restricted or painful movement.
             <br />
             <br />
-            I may assess the situation by gently feeling for tenderness,
-            looking at your posture, and checking for restricted or painful
-            movement.
+            Each treatment is designed to cover your input and needs. The focus
+            is on particular areas incorporated into the full body massage. The
+            goal is for the patient to be heard, respected, and ultimately feel
+            new and improved when they exit the massage room.
           </p>
         </Double>
         <Double
@@ -134,6 +137,7 @@ export default function Home({ allPostsData, open, setOpen }) {
           </InfoCard>
         </InfoCards>
         <div>
+          <h4>ON-SITE ONLY</h4>
           <h4>WE ACCEPT CASH OR CHECK</h4>
           <div>
             <h4 className='sub-heading'>SENIORS AND FIXED/LOW INCOME:</h4>
@@ -146,7 +150,7 @@ export default function Home({ allPostsData, open, setOpen }) {
           <h1 className={utilStyles.lightText}>CONTACT US</h1>
         </div>
         <strong>
-          Please give 24-hours notice to make, change, or cancel an appointment
+          Please give 24-hour notice to make, change, or cancel an appointment
         </strong>
         <Contact></Contact>
       </section>
