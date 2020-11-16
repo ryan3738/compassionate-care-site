@@ -29,8 +29,8 @@ export default function Double({
         ) : (
           <>
             <div className='double-item double-text double-right'>
-              <h3 className='alternating-color'>{rightTitle}</h3>
-              <h4 className='alternating-color'>{rightSubtitle}</h4>
+              <h2 className='alternating-color'>{rightTitle}</h2>
+              <h3 className='alternating-color'>{rightSubtitle}</h3>
               <div className='alternating-color'>{rightText}</div>
             </div>
           </>
