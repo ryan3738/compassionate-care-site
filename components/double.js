@@ -37,8 +37,8 @@ export default function Double({
         )}
 
         <div className='double-item double-text double-left'>
-          <h3 className='alternating-color'>{title}</h3>
-          <h4 className='alternating-color'>{subtitle}</h4>
+          <h2 className='alternating-color'>{title}</h2>
+          <h3 className='alternating-color'>{subtitle}</h3>
           <div className='alternating-color'>{children}</div>
         </div>
         <style jsx>{`
