@@ -17,6 +17,7 @@ export default function Layout({ children, home, open, setOpen }) {
       <Head>
         <html lang='en' />
         <link rel='icon' href='/favicon.ico' />
+        <link rel='canonical' href='https://compassionatecaremassage.net/' />
         <meta
           name='description'
           content='Massage for seniors and low income in Bellingham, Washington | Techniques that best serve the needs of the individual to support a lifetime of health maintenance and harmony.'
@@ -25,6 +26,7 @@ export default function Layout({ children, home, open, setOpen }) {
           name='keywords'
           content='massage, senior, geriatric, low, income, bellingham'
         />
+
         {/* <meta
           property='og:image'
           content={`https://og-image.now.sh/${encodeURI(
