@@ -1,21 +1,19 @@
-
-    {
-        "address": {
-            "street": "4000 Flynn St",
-            "city": "Bellingham",
-            "state": "WA",
-            "zipCode": "98229"
-        },
-        "phoneNumber": "206-335-9871",
-        "email": "ginnyredpath25@gmail.com",
-        "hours": {
-            "Sunday": "Closed",
-            "Monday": "Closed",
-            "Tuesday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
-            "Wednesday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
-            "Thursday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
-            "Friday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30 | 8:00",
-            "Saturday" : "4:30 | 5:00 | 5:30 | 7:00 | 7:30 | 8:00"
-        }
-
+{
+    "address": {
+        "street": "Mill Wheel Park",
+        "city": "Bellingham",
+        "state": "WA",
+        "zipCode": "98229"
+    },
+    "phoneNumber": "206-335-9871",
+    "email": "ginnyredpath25@gmail.com",
+    "hours": {
+        "Sunday": "Closed",
+        "Monday": "Closed",
+        "Tuesday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
+        "Wednesday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
+        "Thursday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30",
+        "Friday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30 | 8:00",
+        "Saturday": "4:30 | 5:00 | 5:30 | 7:00 | 7:30 | 8:00"
     }
+}
