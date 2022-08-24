@@ -12,19 +12,6 @@ import InfoCards from '../components/info-cards';
 import InfoCard from '../components/info-card';
 import About from '../components/about';
 
-// export async function getStaticProps() {
-//   const allPostsData = getSortedPostsData();
-//   // const menuData = await menu.json();
-//   // const menu = await import('../public/data/menu.json');
-//   // const menu = await import('../public/data/menu.json');
-//   return {
-//     props: {
-//       allPostsData,
-//       // menu,??
-//     },
-//   };
-// }
-
 export default function Home({ allPostsData, open, setOpen }) {
   return (
     <Layout home open={open} setOpen={setOpen}>
