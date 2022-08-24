@@ -12,19 +12,6 @@ import InfoCards from '../components/info-cards';
 import InfoCard from '../components/info-card';
 import About from '../components/about';
 
-// export async function getStaticProps() {
-//   const allPostsData = getSortedPostsData();
-//   // const menuData = await menu.json();
-//   // const menu = await import('../public/data/menu.json');
-//   // const menu = await import('../public/data/menu.json');
-//   return {
-//     props: {
-//       allPostsData,
-//       // menu,??
-//     },
-//   };
-// }
-
 export default function Home({ allPostsData, open, setOpen }) {
   return (
     <Layout home open={open} setOpen={setOpen}>
@@ -117,11 +104,8 @@ export default function Home({ allPostsData, open, setOpen }) {
         <div className='header'>
           <h1 className={utilStyles.lightText}>RATES</h1>
         </div>
-        <InfoCards header='1st Visit is Free'>
-          <InfoCard header='$35'>
-            <div className='rate-text'>per 1/2 hour</div>
-          </InfoCard>
-          <InfoCard header='$65'>
+        <InfoCards>
+          <InfoCard header='$60'>
             <div className='rate-text'>per 1 hour</div>
           </InfoCard>
           <InfoCard header='$90'>
@@ -134,11 +118,12 @@ export default function Home({ allPostsData, open, setOpen }) {
               <li>Package Plans</li>
               <li>Referral Incentives</li>
             </ul>
+
           </InfoCard>
         </InfoCards>
         <div>
           <h4>ON-SITE ONLY</h4>
-          <h4>WE ACCEPT CASH OR CHECK</h4>
+          <h4>WE ACCEPT CASH OR CHECK Or Major Credit cards</h4>
           <div>
             <h4 className='sub-heading'>SENIORS AND FIXED/LOW INCOME:</h4>
             <p>Sliding scale rate with a $35.00 minimum</p>
