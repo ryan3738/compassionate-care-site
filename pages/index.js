@@ -104,8 +104,7 @@ export default function Home({ allPostsData, open, setOpen }) {
         <div className='header'>
           <h1 className={utilStyles.lightText}>RATES</h1>
         </div>
-    
-    
+        <InfoCards>
           <InfoCard header='$60'>
             <div className='rate-text'>per 1 hour</div>
           </InfoCard>
@@ -119,6 +118,7 @@ export default function Home({ allPostsData, open, setOpen }) {
               <li>Package Plans</li>
               <li>Referral Incentives</li>
             </ul>
+
           </InfoCard>
         </InfoCards>
         <div>
