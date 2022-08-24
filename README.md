@@ -1,1 +1,1 @@
-This is a NextJs website for Frasers Gourmet Hideaway
+This is a NextJs website for Compassionate Care
