@@ -117,11 +117,11 @@ export default function Home({ allPostsData, open, setOpen }) {
         <div className='header'>
           <h1 className={utilStyles.lightText}>RATES</h1>
         </div>
-        <InfoCards header='1st Visit is Free'>
+        <InfoCard>
           <InfoCard header='$35'>
             <div className='rate-text'>per 1/2 hour</div>
           </InfoCard>
-          <InfoCard header='$65'>
+          <InfoCard header='$60'>
             <div className='rate-text'>per 1 hour</div>
           </InfoCard>
           <InfoCard header='$90'>
