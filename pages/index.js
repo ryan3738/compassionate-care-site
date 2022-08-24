@@ -138,7 +138,7 @@ export default function Home({ allPostsData, open, setOpen }) {
         </InfoCards>
         <div>
           <h4>ON-SITE ONLY</h4>
-          <h4>WE ACCEPT CASH OR CHECK</h4>
+          <h4>WE ACCEPT CASH OR CHECK Or Major Credit cards</h4>
           <div>
             <h4 className='sub-heading'>SENIORS AND FIXED/LOW INCOME:</h4>
             <p>Sliding scale rate with a $35.00 minimum</p>
