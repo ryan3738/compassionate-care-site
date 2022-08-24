@@ -1,8 +1,5 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import Hero from '../components/hero';
 import Image from 'next/image';
 import Navigation from '../components/navigation';
 import Button from '../components/button';
@@ -65,9 +62,6 @@ export default function Layout({ children, home, open, setOpen }) {
             </a>
           </span>
         </div>
-        {/* <div className='scroll-down'>
-          <h6>SCROLL DOWN</h6>
-        </div> */}
         <nav className='nav-list'>
           <NavList />
         </nav>
@@ -95,14 +89,6 @@ export default function Layout({ children, home, open, setOpen }) {
         .nav-list {
           display: flex;
           flex-wrap: wrap;
-          /* display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-          grid-template-rows: repeat(auto-fit, 4em);
-          justify-items: center; */
-          /* padding: 0% 2%; */
-          /* background: var(--color-darker); */
-          /* position: sticky; */
-          /* top: 0; */
         }
       `}</style>
     </div>

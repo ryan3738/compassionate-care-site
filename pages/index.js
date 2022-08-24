@@ -1,18 +1,14 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-// import { getSortedPostsData } from '../lib/posts';
-import Date from '../components/date';
-import MenuSection from '../components/menu-section';
 import Double from '../components/double';
 import Contact from '../components/contact';
-import Button from '../components/button';
 import Hero from '../components/hero';
 import InfoCards from '../components/info-cards';
 import InfoCard from '../components/info-card';
 import About from '../components/about';
 
-export default function Home({ allPostsData, open, setOpen }) {
+export default function Home({  open, setOpen }) {
   return (
     <Layout home open={open} setOpen={setOpen}>
       <Head>
